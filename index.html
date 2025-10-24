@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website template - Modern minimalist design">
+    <meta name="keywords" content="portfolio, professional, designer, developer, minimalist">
+    <meta name="author" content="Your Name">
+    <title>SKENA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">TEAM SKENA</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Photo Member</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Welcome To My Team </h1><p>
+                <h1 class="hero-title">- Boys Skena -</h1>
+                <p class="hero-subtitle">Karya Mahasiswa Informatika Horizon University Indonesia.</p>
+                <a href="#portfolio" class="cta-button">Lihat Anggota</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2 class="section-title">About Skena!</h2>
+                    <p class="about-description">
+                        Dalam bahasa gaul, skena itu adalah singkatan dari tiga kata yaitu Sua, cengKErama dan kelaNa. Tadinya, ketiga kata itu kedengeran kurang populer di kalangan Gen Z, tapi berkat singkatan skena, kata-kata itu jadi ‘hidup’ lagi.
+                    </p>
+                    <p class="about-description">
+                        Sua artinya ketemu atau kumpul-kumpul, cengkerama artinya interaksi, ngobrol-ngobrol sambil saling bercanda dan ketawa-ketiwi. 
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">SKENA</span>
+                            <span class="stat-label"></span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">IS</span>
+                            <span class="stat-label"></span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">REAL !!</span>
+                            <span class="stat-label"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="skena.png" alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title fade-in">Photo Member</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All Photo Member Skena</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="P1.jpg" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View E-commerce Platform project">Member 1</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Wahyu Firmansyah</h3>
+                        <p class="portfolio-description">aku pikir tahu dari mana, ternyata ‘tahu’ dari Sumedang.</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="P2.jpg" alt="Fitness Mobile App">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Fitness Mobile App project">Member 2</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Zagar</h3>
+                        <p class="portfolio-description">Masa depanmu tergantung pada mimpimu, maka perbanyaklah tidur.</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="P3.jpg" alt="Brand Identity Design">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Brand Identity Design project">Member 3</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Reginasqy Alawiyah</h3>
+                        <p class="portfolio-description">Uang memang tidak menjamin kebahagiaan, tapi tidak punya uang lebih tidak terjamin lagi.</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="P6.jpg" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Corporate Website project">Member 4</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Roberto Wira Pratama</h3>
+                        <p class="portfolio-description">Sebenarnya pacar orang itu juga pacar kita karena kita kan juga orang</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="P5.jpg" alt="Food Delivery App">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Food Delivery App project">Member 5</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Fernanda Denira Fajar</h3>
+                        <p class="portfolio-description">Cinta adalah pengorbanan, tapi kalau pengorbanan mulu sih namanya penderitaan.</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="P7.jpg" alt="Product Packaging">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Product Packaging project">Member 6</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Aliando Bimo Ferdian </h3>
+                        <p class="portfolio-description">Kunci kesehatan cuma satu, yaitu jangan sakit.</p>
+                        <div class="portfolio-tags">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h2 class="section-title">Ayo join Team Skena!</h2>
+                    <p class="contact-description">
+                        Mari bergabung bersama kita dalam team Skena dan rasakan sensasinya!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:hello@yourname.com" class="contact-link">horizonskena@skena.ac.id</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+1234567890" class="contact-link">(+62) 888-0011-2233</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-text">Campus Horizon University</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p class="footer-text">@.by zagar</p>
+                </div>
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <a href="#home" class="footer-link">Home</a>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#portfolio" class="footer-link">Photo Member</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
